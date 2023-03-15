@@ -1,0 +1,11 @@
+ghp_G6XgnHwFbargO7p9iIyVoXz7PYrkZF2HHa4
+
+When u clone a repo and its not allowing u to add new remote rpository
+follow the steps below
+
+Powershell: Remove-Item -Recurse -Force .\.git\
+Linux Terminal: rm -rf ./.git
+ 
+then git init, git add . , git commit
+
+Note : always remember to switch branch to main
